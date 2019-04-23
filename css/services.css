@@ -1,0 +1,107 @@
+body {
+	font-family: Verdana;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+	
+}
+
+a {
+	text-decoration: none;
+}
+header { border: 5px solid rgba(0, 0, 0, 0.5);
+		padding:10px;
+		margin:20px;
+		color:red;
+		text-shadow: 2px 1px red;
+}
+
+.main-header {
+	display:grid;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns:1fr;
+	color: white;
+}
+div.MEOW {
+    border: 1px solid #ccc;
+}
+
+div.MEOW:hover {
+    border: 1px solid #777;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.responsive {
+    padding: 0px;
+    float: left;
+    width: 24.99999%;
+}
+
+
+
+.i {
+	margin: 30px;
+	display: grid;
+	
+	grid-gap:30px;
+}
+img {
+   border-radius: 55%;
+
+ }
+
+.MEOW {
+  border: 10px solid rgba(0, 0, 0, 0.1);
+  padding: 20px ;
+  font-size: 15px;
+  text-align: center;
+  grid-gap:40px;
+  display:grid;
+  position: relative; 
+  
+	
+}
+
+#menu-right {
+	list-style: none;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display:grid;
+	grid-gap: 20px;
+	grid-template-columns: auto auto auto auto;
+	margin-bottom: 10px;
+}
+.button {
+	background-color: 		#800000;
+	color: red;
+	padding: 10px 25px;
+	
+}
+.button:hover {
+	background: 	black;
+	color: red;
+	
+}
+
+
+.main-footer {
+	padding: 10px;
+	color: white;
+	text-align: center;
+	background: #000000;
+	margin: 15px;
+  
+} 	

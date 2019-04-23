@@ -1,0 +1,104 @@
+body {
+	font-family: Verdana;
+	background-image:url(../images/yown7.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	
+}
+
+a {
+	text-decoration: none;
+}
+.header { border: 5px solid rgba(0, 0, 0, 0.5);
+		padding:5px;
+		margin:10px;
+		color: red;
+		text-shadow: 2px 3px red;	
+}
+.main-header {
+	display:grid;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: px;
+	grid-template-columns:1fr;
+}
+
+#menu-right {
+	list-style: none;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display:grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-bottom: 10px;
+}
+.button {
+	background-color:#800000;
+	color: red;
+	padding: 10px 25px;
+	
+}
+.button:hover {
+	background: 	black;
+	color: red;
+	
+}
+
+.showcase {
+	padding: 300px;
+	margin-bottom: 10px;
+	background-color:#696969;
+	background-image:url(../images/yown7.jpg);
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	text-align:center;
+	color:#fff;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+}
+
+.a {
+	line-height: 2.8;
+	font-size:19;
+	color:white;
+}
+
+h1, p {
+	color:white;
+}
+#one {color:black;}
+
+img {
+	border-radius:10%;
+}
+
+.main-footer {
+	padding: 10px;
+	color: white;
+	text-align: center;
+	background: #000000;
+	margin: 15px;
+  
+} 	
+
+ h2 {
+	color:black;
+}
+
+.g, .e, .n, .m, .ca {
+	font-family:Verdana;
+}
+
+
+
+	

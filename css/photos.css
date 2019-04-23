@@ -1,0 +1,160 @@
+body {
+	font-family: Verdana;
+	
+}
+
+a, h1 {
+	text-decoration: none;
+}
+
+header { border: 5px solid rgba(0, 0, 0, 0.5);
+		padding:5px;
+		margin:10px;
+		color:red;
+		text-shadow: 2px 3px red;	
+}
+.main-header {
+	display:grid;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns:1fr;
+	color: red;
+	
+}
+
+
+#menu-right {
+	list-style: none;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display:grid;
+	grid-gap: 20px;
+	grid-template-columns: auto auto auto auto;
+	margin-bottom: 10px;
+}
+.button {
+	background-color:#800000;
+	color: red;
+	padding: 10px 25px;
+	
+}
+.button:hover {
+	background: 	black;
+	color: red;
+	
+}
+
+
+
+.showcase {
+	background-image: url(../images//meow9.jpg);
+	padding: 400px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;  
+	text-align:center;
+	color:#fff;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+	background-color: #0D223F;
+
+}
+
+
+
+
+.container {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border: 5px solid;
+	
+	
+}
+.container > div {
+	padding: 80px;
+}
+.border {
+	
+	font-size: 100px;
+	background: rgba(0, 0, 0, 0.5);
+}
+	
+p {
+
+	border:2px solid rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.5);
+	
+}
+	
+#T {
+	text-align: center;
+	background-image: url(../images//YOWN6.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:red;
+	letter-spacing:10px;
+	text-transform:uppercase;
+}
+
+
+
+#R {
+	
+	text-align: center;
+	background-image: url(../images//YOWN11.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:red;
+	letter-spacing:10px;
+	text-transform:uppercase;
+}
+
+
+#A {
+	
+	text-align: center;
+	background-image: url(../images//YOWN13.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:red;
+	letter-spacing:10px;
+	text-transform:uppercase;
+}
+
+
+
+#E {
+	text-align: center;
+	background-image: url(../images//YOWN14.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:red;
+	letter-spacing:10px;
+	text-transform:uppercase;
+}
+
+
+
+
+.main-footer, .q {
+	padding: 10px;
+	color: white;
+	text-align: center;
+	background: #000000;
+	margin: 5xpx;
+  
+} 	
